@@ -1,10 +1,15 @@
+import Hero from "./components/Hero/Hero";
 import Introduction from "./components/Introduction/Introduction";
+import Navbar from "./components/Navbar/Navbar";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
     <>
       <Introduction />
-      <h1>Hello World</h1>
+      <Navbar />
+      <Hero />
+      <Skills />
     </>
   );
 }

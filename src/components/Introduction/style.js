@@ -11,7 +11,7 @@ export const IntroductionContainer = styled.div`
   .lines {
     position: absolute;
 
-    transform: translate(-45px, -100px);
+    transform: translate(-60px, -100px);
   }
   svg {
     position: absolute;
