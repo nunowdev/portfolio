@@ -19,6 +19,7 @@ export const HeroUpper = styled.div`
   font-size: 72px;
   color: black;
   font-weight: 700;
+  white-space: nowrap;
 `;
 export const HeroBottom = styled.div`
   width: 100%;
@@ -29,4 +30,5 @@ export const HeroBottom = styled.div`
   font-size: 72px;
   color: black;
   font-weight: 700;
+  white-space: nowrap;
 `;
