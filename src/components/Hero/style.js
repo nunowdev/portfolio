@@ -16,7 +16,7 @@ export const HeroUpper = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 72px;
+  font-size: 4vw;
   color: black;
   font-weight: 700;
   white-space: nowrap;
@@ -27,7 +27,7 @@ export const HeroBottom = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  font-size: 72px;
+  font-size: 4vw;
   color: black;
   font-weight: 700;
   white-space: nowrap;
