@@ -6,7 +6,6 @@ export const HeroContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding: 0 400px;
   margin-top: 100px;
 `;
 
@@ -15,8 +14,8 @@ export const HeroUpper = styled.div`
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  font-size: 4vw;
+  justify-content: center;
+  font-size: 72px;
   color: black;
   font-weight: 700;
   white-space: nowrap;
@@ -26,8 +25,8 @@ export const HeroBottom = styled.div`
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  font-size: 4vw;
+  justify-content: center;
+  font-size: 72px;
   color: black;
   font-weight: 700;
   white-space: nowrap;
