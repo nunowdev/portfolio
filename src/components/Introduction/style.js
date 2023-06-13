@@ -8,6 +8,7 @@ export const IntroductionContainer = styled.div`
   height: 100vh;
   background-color: #232323;
   position: absolute;
+  z-index: 50;
   .lines {
     position: absolute;
 
