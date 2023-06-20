@@ -1,3 +1,5 @@
+import About from "./components/About/About";
+import Frontend from "./components/Frontend/Frontend";
 import Hero from "./components/Hero/Hero";
 import Introduction from "./components/Introduction/Introduction";
 import Navbar from "./components/Navbar/Navbar";
@@ -10,6 +12,8 @@ function App() {
       <Navbar />
       <Hero />
       <Skills />
+      <About />
+      <Frontend />
     </>
   );
 }

@@ -33,6 +33,7 @@ export const NavbarLinks = styled.div`
     color: black;
     font-weight: 500;
     margin: 0 8px;
+    cursor: pointer;
     &.nomargin {
       margin-left: 0;
     }

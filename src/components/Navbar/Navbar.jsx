@@ -18,9 +18,7 @@ const Navbar = () => {
       </NavbarLocation>
       <NavbarLinks>
         <div className="link nomargin">About</div>
-        <div className="link">Skills</div>
         <div className="link">Contact</div>
-
         <div className="link">Projects</div>
       </NavbarLinks>
     </NavbarContainer>

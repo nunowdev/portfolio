@@ -4,11 +4,12 @@ export const SkillsContainer = styled.div`
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
-  padding: 0 250px;
+  padding-left: 12%;
   margin-top: 200px;
+  padding-bottom: 100px;
 `;
 
 export const SkillsTitle = styled.div`
@@ -24,18 +25,22 @@ export const SkillsTitle = styled.div`
 `;
 
 export const SkillsDisplay = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  height: 120px;
+  width: 50%;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  height: auto;
+  border-right: 2px solid black;
 
   .skill {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0 20px;
+    max-width: 100px;
     &:first-of-type {
       margin-left: 0px;
     }

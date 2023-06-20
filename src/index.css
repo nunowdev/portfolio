@@ -10,6 +10,12 @@
   font-size-adjust: none;
 }
 
+html,
+body {
+  max-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 @keyframes elevate {
   from {
     transform: translateY(0);
