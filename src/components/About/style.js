@@ -57,6 +57,10 @@ export const AboutContent = styled.div`
         font-size: 24px;
         color: black;
         font-weight: 700;
+        transition: all 300ms ease;
+        &:hover {
+          transform: scale(1.1) translateY(-10px);
+        }
       }
     }
     .email {
