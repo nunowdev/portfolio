@@ -7,12 +7,19 @@ export const NavbarContainer = styled.div`
   justify-content: space-between;
   height: 80px;
   padding: 0 250px;
+  @media only screen and (max-width: 900px) {
+    padding: 0 0;
+    justify-content: center;
+  }
 `;
 
 export const NavbarName = styled.div`
   font-size: 14px;
   color: black;
   font-weight: 500;
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
 `;
 export const NavbarLocation = styled.div`
   display: flex;
@@ -20,6 +27,9 @@ export const NavbarLocation = styled.div`
   font-size: 14px;
   color: black;
   font-weight: 500;
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
   svg {
     font-size: 16px;
     margin-right: 8px;
