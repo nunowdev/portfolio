@@ -45,7 +45,6 @@ const Introduction = () => {
   function laptopAnimation() {
     sleep(2000).then(() => {
       setIsLaptop(!isLaptop);
-      console.log("changed");
     });
   }
 

@@ -9,10 +9,11 @@ import {
 } from "./style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { modalOpen } from "../modalControl";
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer className="modal_opened">
       <AboutWrapper>
         <AboutTitle>About</AboutTitle>
         <AboutContent>
@@ -40,6 +41,9 @@ const About = () => {
             </div>
           </div>
           <div className="part center">
+            <button className="resume_button" onClick={() => modalOpen()}>
+              Contact
+            </button>
             <button className="resume_button">Resume</button>
           </div>
         </AboutContent>

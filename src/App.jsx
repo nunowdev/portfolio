@@ -22,6 +22,8 @@ function App() {
       <Python />
       <Contact />
       <Footer />
+
+      {/* REMEMBER TO ADD STYLED COMPONENTS TO SKILLS */}
     </>
   );
 }

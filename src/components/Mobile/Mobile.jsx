@@ -9,7 +9,7 @@ import {
 
 const Mobile = () => {
   return (
-    <MobileContainer>
+    <MobileContainer className="modal_opened">
       <MobileWrapper>
         <MobileTitle>Mobile</MobileTitle>
         <MobileContent>blblabla</MobileContent>

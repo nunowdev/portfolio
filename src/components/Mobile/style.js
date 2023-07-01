@@ -7,6 +7,10 @@ export const MobileContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 900px) {
+    padding: 0px;
+    height: auto;
+  }
 `;
 
 export const MobileWrapper = styled.div`
@@ -19,6 +23,9 @@ export const MobileWrapper = styled.div`
   justify-content: flex-start;
   flex-direction: column;
   position: relative;
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+  }
 `;
 
 export const MobileTitle = styled.div`
@@ -32,6 +39,9 @@ export const MobileContent = styled.div`
   height: 400px;
   margin-top: 50px;
   border: 2px solid red;
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+  }
 `;
 
 export const MobileProject = styled.div`
@@ -40,4 +50,11 @@ export const MobileProject = styled.div`
   border: 2px solid green;
   position: absolute;
   right: 5%;
+  @media only screen and (max-width: 900px) {
+    height: 500px;
+    width: 100%;
+    right: 0;
+    position: relative;
+    margin-top: 40px;
+  }
 `;

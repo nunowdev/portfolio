@@ -8,7 +8,7 @@ import {
 
 const Frontend = () => {
   return (
-    <FrontendContainer>
+    <FrontendContainer className="modal_opened">
       <FrontendGrid>
         <GridProject></GridProject>
         <FrontendTitle>Frontend Projects</FrontendTitle>

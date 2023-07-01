@@ -8,7 +8,7 @@ export const IntroductionContainer = styled.div`
   height: 100vh;
   background-color: #232323;
   position: absolute;
-  z-index: 50;
+  z-index: 500;
   overflow-x: hidden;
   @media only screen and (max-width: 900px) {
     flex-direction: column;

@@ -4,7 +4,7 @@ import skills from "./data";
 
 const Skills = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer className="modal_opened">
       <SkillsTitle>Technologies I work with</SkillsTitle>
       <SkillsDisplay>
         {skills.map((skill) => (

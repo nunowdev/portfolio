@@ -9,7 +9,7 @@ import {
 
 const Python = () => {
   return (
-    <PythonContainer>
+    <PythonContainer className="modal_opened">
       <PythonWrapper>
         <PythonTitle>I also know some python</PythonTitle>
         <PythonContent>

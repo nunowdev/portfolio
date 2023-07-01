@@ -45,9 +45,8 @@ const skills = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   },
   {
-    name: "GitHub",
-    imageURL:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    name: "Styled Components",
+    imageURL: "https://cdn.worldvectorlogo.com/logos/styled-components-1.svg",
   },
   {
     name: "Python",

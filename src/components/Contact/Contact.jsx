@@ -1,13 +1,14 @@
 import React from "react";
 import { ContactButtons, ContactContainer, ContactTitle } from "./style";
+import { modalOpen } from "../modalControl";
 
 const Contact = () => {
   return (
-    <ContactContainer>
+    <ContactContainer className="modal_opened">
       <ContactTitle>Like what you see?</ContactTitle>
       <ContactButtons>
         <button>Resume</button>
-        <button>Contact</button>
+        <button onClick={() => modalOpen()}>Contact</button>
       </ContactButtons>
     </ContactContainer>
   );

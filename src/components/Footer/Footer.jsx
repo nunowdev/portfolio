@@ -3,7 +3,7 @@ import { FooterContainer, FooterItem } from "./style";
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer className="modal_opened">
       <FooterItem className="name">Nuno Alves</FooterItem>
       <FooterItem>2023 © All rights reserved</FooterItem>
     </FooterContainer>

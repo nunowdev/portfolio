@@ -7,6 +7,10 @@ export const AboutContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 900px) {
+    padding: 0px;
+    margin-bottom: 40px;
+  }
 `;
 
 export const AboutWrapper = styled.div`
@@ -18,6 +22,9 @@ export const AboutWrapper = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+  }
 `;
 
 export const AboutTitle = styled.div`
@@ -34,6 +41,9 @@ export const AboutContent = styled.div`
 
   margin-top: 50px;
   height: 400px;
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+  }
   .part {
     display: flex;
     align-items: flex-start;
@@ -43,10 +53,14 @@ export const AboutContent = styled.div`
     width: 300px;
     height: 300px;
     margin: 0 40px;
+    @media only screen and (max-width: 900px) {
+      margin: 0;
+    }
     &.center {
       display: flex;
       align-items: center;
       justify-content: flex-start;
+      flex-direction: column;
       .resume_button {
         width: 200px;
         height: 100px;
@@ -58,6 +72,7 @@ export const AboutContent = styled.div`
         color: black;
         font-weight: 700;
         transition: all 300ms ease;
+        margin: 20px 0;
         &:hover {
           transform: scale(1.1) translateY(-10px);
         }
@@ -113,4 +128,7 @@ export const AboutMainText = styled.div`
   font-size: 18px;
   color: white;
   font-weight: 400;
+  @media only screen and (max-width: 900px) {
+    margin-bottom: 20px;
+  }
 `;
