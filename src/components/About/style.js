@@ -7,23 +7,33 @@ export const AboutContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 1500px) {
+    padding: 100px;
+    margin-bottom: 40px;
+    height: 1040px;
+  }
   @media only screen and (max-width: 900px) {
     padding: 0px;
     margin-bottom: 40px;
+    height: 1040px;
   }
 `;
 
 export const AboutWrapper = styled.div`
   width: 80%;
   height: 100%;
-  background-color: black;
+  background-color: #111111;
   padding: 50px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  @media only screen and (max-width: 1500px) {
+    width: 100%;
+  }
   @media only screen and (max-width: 900px) {
     width: 100%;
+    align-items: center;
   }
 `;
 
@@ -31,6 +41,7 @@ export const AboutTitle = styled.div`
   font-size: 72px;
   color: white;
   font-weight: 700;
+  text-align: center;
 `;
 
 export const AboutContent = styled.div`
@@ -53,6 +64,9 @@ export const AboutContent = styled.div`
     width: 300px;
     height: 300px;
     margin: 0 40px;
+    @media only screen and (max-width: 1500px) {
+      margin: 0 15px;
+    }
     @media only screen and (max-width: 900px) {
       margin: 0;
     }

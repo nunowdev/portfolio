@@ -12,6 +12,7 @@ export const SkillsContainer = styled.div`
   padding-bottom: 100px;
   @media only screen and (max-width: 900px) {
     padding-left: 0;
+    margin-top: 100px;
   }
 `;
 
@@ -41,11 +42,14 @@ export const SkillsDisplay = styled.div`
   height: auto;
   padding-right: 40px;
   border-right: 2px solid black;
+  @media only screen and (max-width: 1500px) {
+    border: none;
+  }
   @media only screen and (max-width: 900px) {
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-row-gap: 15px;
     padding: 20px;
     justify-items: center;
   }

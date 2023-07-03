@@ -6,7 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Introduction from "./components/Introduction/Introduction";
 import Mobile from "./components/Mobile/Mobile";
 import Navbar from "./components/Navbar/Navbar";
-import Python from "./components/Python/Python";
+
 import Skills from "./components/Skills/Skills";
 
 function App() {
@@ -19,11 +19,9 @@ function App() {
       <About />
       <Frontend />
       <Mobile />
-      <Python />
+
       <Contact />
       <Footer />
-
-      {/* REMEMBER TO ADD STYLED COMPONENTS TO SKILLS */}
     </>
   );
 }

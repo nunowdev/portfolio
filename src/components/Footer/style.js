@@ -7,6 +7,9 @@ export const FooterContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 16%;
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 export const FooterItem = styled.div`

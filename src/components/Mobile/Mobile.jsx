@@ -12,7 +12,10 @@ const Mobile = () => {
     <MobileContainer className="modal_opened">
       <MobileWrapper>
         <MobileTitle>Mobile</MobileTitle>
-        <MobileContent>blblabla</MobileContent>
+        <MobileContent>
+          Throughout my career, I've also embarked on the professional journey
+          of developing mobile apps with Flutter.
+        </MobileContent>
         <MobileProject>s</MobileProject>
       </MobileWrapper>
     </MobileContainer>

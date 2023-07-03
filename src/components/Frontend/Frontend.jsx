@@ -10,8 +10,13 @@ const Frontend = () => {
   return (
     <FrontendContainer className="modal_opened">
       <FrontendGrid>
+        <FrontendTitle className="frontend_mobile_title">
+          Frontend Projects
+        </FrontendTitle>
         <GridProject></GridProject>
-        <FrontendTitle>Frontend Projects</FrontendTitle>
+        <FrontendTitle className="frontend_desktop_title">
+          Frontend Projects
+        </FrontendTitle>
         <GridProject></GridProject>
         <GridProject></GridProject>
       </FrontendGrid>

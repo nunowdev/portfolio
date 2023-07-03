@@ -18,26 +18,35 @@ const About = () => {
         <AboutTitle>About</AboutTitle>
         <AboutContent>
           <div className="part">
-            <AboutSubtitle>Subtitle</AboutSubtitle>
+            <AboutSubtitle>Here's a bit about me.</AboutSubtitle>
             <AboutMainText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore, iste numquam facere placeat voluptate consequuntur
-              repellendus dicta, at, vel accusantium
+              I'm a 20 year-old Portuguese <b>frontend developer</b> with
+              experience developing websites with great user experiences. I
+              currently solve <b> extremely difficult engineering problems </b>{" "}
+              every day with <b>React and Flutter.</b>
             </AboutMainText>
           </div>
           <div className="part">
             <AboutSubtitle>Email</AboutSubtitle>
-            <AboutMainText className="email">rrrrrr@gmail.com</AboutMainText>
+            <AboutMainText className="email">nunowdev@gmail.com</AboutMainText>
             <AboutSubtitle>Socials</AboutSubtitle>
             <div className="socials">
-              <div className="social">
+              <a
+                href="https://www.linkedin.com/in/nunowdev/"
+                target="_blank"
+                className="social"
+              >
                 <FontAwesomeIcon icon={faLinkedin} />
                 <div className="name">LinkedIn</div>
-              </div>
-              <div className="social">
+              </a>
+              <a
+                href="https://github.com/nunowdev"
+                target="_blank"
+                className="social"
+              >
                 <FontAwesomeIcon icon={faGithub} />
                 <div className="name">Github</div>
-              </div>
+              </a>
             </div>
           </div>
           <div className="part center">
