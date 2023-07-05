@@ -18,11 +18,15 @@ const Navbar = () => {
         Portugal
       </NavbarLocation>
       <NavbarLinks>
-        <div className="link nomargin">About</div>
+        <a className="link nomargin" href="#about">
+          About
+        </a>
         <div className="link" onClick={() => modalOpen()}>
           Contact
         </div>
-        <div className="link">Projects</div>
+        <a className="link" href="#projects">
+          Projects
+        </a>
       </NavbarLinks>
     </NavbarContainer>
   );

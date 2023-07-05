@@ -13,7 +13,7 @@ import { modalOpen } from "../modalControl";
 
 const About = () => {
   return (
-    <AboutContainer className="modal_opened">
+    <AboutContainer className="modal_opened" id="about">
       <AboutWrapper>
         <AboutTitle>About</AboutTitle>
         <AboutContent>
