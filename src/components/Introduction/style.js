@@ -16,7 +16,7 @@ export const IntroductionContainer = styled.div`
   .lines {
     position: absolute;
 
-    transform: translate(-60px, -100px);
+    transform: translate(-115px, -32px);
     @media only screen and (max-width: 900px) {
       display: none;
     }
