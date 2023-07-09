@@ -37,12 +37,14 @@ const Frontend = () => {
                   <a
                     href="https://github.com/nunowdev/library-app"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} className="link_icon" />
                   </a>
                   <a
                     href="https://library-app-nunowdev.vercel.app/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faLink} className="link_icon" />
                   </a>
@@ -71,12 +73,14 @@ const Frontend = () => {
                   <a
                     href="https://github.com/nunowdev/gallery-app"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} className="link_icon" />
                   </a>
                   <a
                     href="https://gallery-app-nunowdev.vercel.app/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faLink} className="link_icon" />
                   </a>
@@ -102,12 +106,14 @@ const Frontend = () => {
                   <a
                     href="https://github.com/nunowdev/tesla-homepage-clone"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faGithub} className="link_icon" />
                   </a>
                   <a
                     href="https://tesla-homepage-clone-nunowdev.vercel.app/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faLink} className="link_icon" />
                   </a>
