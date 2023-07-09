@@ -1,7 +1,7 @@
 import React from "react";
 import { ContactButtons, ContactContainer, ContactTitle } from "./style";
 import { modalOpen } from "../modalControl";
-import resume from "../resume.pdf";
+import resume from "../Resume.pdf";
 
 const Contact = () => {
   return (

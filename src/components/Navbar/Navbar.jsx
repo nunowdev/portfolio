@@ -8,7 +8,7 @@ import {
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { modalOpen } from "../modalControl";
-import resume from "../resume.pdf";
+import resume from "../Resume.pdf";
 
 const Navbar = () => {
   return (
