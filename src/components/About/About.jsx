@@ -10,6 +10,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { modalOpen } from "../modalControl";
+import resume from "../resume.pdf";
 
 const About = () => {
   return (
@@ -35,6 +36,7 @@ const About = () => {
                 href="https://www.linkedin.com/in/nunowdev/"
                 target="_blank"
                 className="social"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
                 <div className="name">LinkedIn</div>
@@ -43,6 +45,7 @@ const About = () => {
                 href="https://github.com/nunowdev"
                 target="_blank"
                 className="social"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <div className="name">Github</div>
@@ -53,7 +56,9 @@ const About = () => {
             <button className="resume_button" onClick={() => modalOpen()}>
               Contact
             </button>
-            <button className="resume_button">Resume</button>
+            <a href={resume} target="_blank" rel="noreferrer">
+              <button className="resume_button">Resume</button>
+            </a>
           </div>
         </AboutContent>
       </AboutWrapper>

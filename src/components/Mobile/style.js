@@ -38,10 +38,26 @@ export const MobileContent = styled.div`
   width: 40%;
   height: auto;
   margin-top: 50px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   font-size: 18px;
   color: white;
   font-weight: 400;
+
+  a {
+    transition: all 350ms ease;
+    color: white;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  svg {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
   @media only screen and (max-width: 900px) {
     width: 100%;
   }
@@ -50,10 +66,19 @@ export const MobileContent = styled.div`
 export const MobileProject = styled.div`
   width: 25%;
   height: 600px;
-  border: 2px solid green;
+
   position: absolute;
   right: 5%;
   min-width: 316px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    @media only screen and (max-width: 1220px) {
+      object-fit: contain;
+    }
+  }
   @media only screen and (max-width: 1220px) {
     height: 500px;
     width: 100%;

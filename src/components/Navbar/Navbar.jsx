@@ -8,6 +8,7 @@ import {
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { modalOpen } from "../modalControl";
+import resume from "../resume.pdf";
 
 const Navbar = () => {
   return (
@@ -24,6 +25,9 @@ const Navbar = () => {
         <div className="link" onClick={() => modalOpen()}>
           Contact
         </div>
+        <a className="link" href={resume} target="_blank" rel="noreferrer">
+          Resume
+        </a>
         <a className="link" href="#projects">
           Projects
         </a>
