@@ -10,7 +10,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { modalOpen } from "../modalControl";
-import { resume } from "../resume.pdf";
+import resume from "../resume.pdf";
 
 const About = () => {
   return (
