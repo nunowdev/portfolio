@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Frontend from "./components/Frontend/Frontend";
 import Hero from "./components/Hero/Hero";
 import Introduction from "./components/Introduction/Introduction";
-import Mobile from "./components/Mobile/Mobile";
+
 import Navbar from "./components/Navbar/Navbar";
 
 import Skills from "./components/Skills/Skills";
@@ -18,7 +18,6 @@ function App() {
       <Skills />
       <About />
       <Frontend />
-      <Mobile />
 
       <Contact />
       <Footer />

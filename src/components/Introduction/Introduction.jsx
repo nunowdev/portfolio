@@ -62,7 +62,7 @@ const Introduction = () => {
       <img src={lines} alt="" className="lines" />
       <IntroductionLeft>
         <div className="title">Nuno Alves</div>
-        <div className="subtitle">Frontend & Mobile Developer</div>
+        <div className="subtitle">Frontend Developer</div>
       </IntroductionLeft>
       <IntroductionRight>
         <div className="part-1" />
