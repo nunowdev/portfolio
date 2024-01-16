@@ -33,7 +33,7 @@ const About = () => {
             <AboutSubtitle>Socials</AboutSubtitle>
             <div className="socials">
               <a
-                href="https://www.linkedin.com/in/nunowdev/"
+                href="https://www.linkedin.com/in/nunoaalves/"
                 target="_blank"
                 className="social"
                 rel="noreferrer"
